@@ -1,0 +1,10 @@
+Tipo      | Nombre del Nodo / Relación | Descripción                        | Propiedades
+----------|----------------------------|------------------------------------|--------------------------
+Nodo      | Usuario                    | Persona que usará la app           | nombre, edad, nivel_cocina
+Nodo      | Ingrediente                | Alimento disponible                | nombre, categoría
+Nodo      | Receta                     | Platillo sugerido                  | nombre, tipo, tiempo, dificultad
+Nodo      | Preferencia                | Estilo alimenticio                 | tipo (ej. "vegano", "sin gluten")
+Relación  | TIENE                      | Usuario tiene cierta preferencia   | –
+Relación  | TIENE_INGREDIENTES         | Usuario tiene estos ingredientes   | –
+Relación  | REQUIERE                   | Receta necesita ingredientes       | cantidad, unidad
+Relación  | PUEDE_PREPARAR             | Usuario puede hacer una receta     | puntuación, afinidad (opcional)
