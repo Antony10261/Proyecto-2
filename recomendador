@@ -1,0 +1,27 @@
+Proceso RecomendadorDeComidas
+
+    Escribir "¿Qué tipo de comida quieres preparar? (Desayuno, Almuerzo, Cena, Snack, Lunch)"
+    Leer tipo
+
+    Escribir "Ingresa los ingredientes que tienes separados por comas (ej: arroz,huevo,queso)"
+    Leer ingredientes
+
+    Escribir "¿Cuánto tiempo tienes para cocinar? (En minutos: 10, 20, 30...)"
+    Leer tiempo
+
+    Escribir "¿Tienes alguna preferencia? (Ej: vegano, sin gluten, ninguno)"
+    Leer preferencia
+
+    Escribir "Buscando recetas que coincidan con tu tipo de comida..."
+    Escribir "Filtrando por ingredientes disponibles..."
+    Escribir "Filtrando por tiempo disponible..."
+    Escribir "Aplicando tus preferencias si las hay..."
+
+    Escribir "Estas son tus recomendaciones:"
+    Escribir "- Receta 1: Omelette rápido"
+    Escribir "- Receta 2: Ensalada con atún"
+    Escribir "- Receta 3: Sandwich saludable"
+
+    Escribir "¡Listo! :)"
+
+FinProceso
